@@ -62,7 +62,7 @@ ndarray = "0.15"
 thiserror = "1.0"
 libloading = { version = "0.7", optional = true }
 
-ureq = { version = "2.1", optional = true, default-features = false, features = [ "tls" ] }
+ureq = { version = "2.8", optional = true, default-features = false, features = [ "tls" ] }
 lazy_static = "1.4"
 tracing = "0.1"
 half = { version = "2.1", optional = true }
